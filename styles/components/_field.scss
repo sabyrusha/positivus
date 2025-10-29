@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .field {
   --fieldInputHeight: var(--input-height);
   --fieldInputTextColor: var(--color-dark);

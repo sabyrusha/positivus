@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .service-card {
   display: flex;
   justify-content: space-between;

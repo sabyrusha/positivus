@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .burger-button {
   @include reset-button;
   @include square(48px);
@@ -12,7 +15,7 @@
   &::after {
     @include abs-center;
 
-    content: '';
+    content: "";
     width: 50%;
     height: 2px;
     background-color: var(--color-dark);

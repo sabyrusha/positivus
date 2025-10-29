@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .grid {
   --gridColumns: 1;
 

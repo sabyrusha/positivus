@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .subscribe-form {
   display: flex;
   column-gap: 20px;

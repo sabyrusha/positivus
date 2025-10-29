@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .team-card {
   height: 100%;
   padding: 40px 35px;

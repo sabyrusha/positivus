@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .review-card {
   --reviewCardCornerWidth: 40px;
   --reviewCardCornerOffsetLeft: 52px;
@@ -26,7 +29,7 @@
     &::after {
       @include square(var(--reviewCardCornerWidth));
 
-      content: '';
+      content: "";
       position: absolute;
       top: 100%;
       left: var(--reviewCardCornerOffsetLeft);
@@ -42,8 +45,7 @@
     display: flex;
     flex-direction: column;
     padding-left: calc(
-      var(--reviewCardCornerOffsetLeft) +
-      var(--reviewCardCornerWidth) / 2
+      var(--reviewCardCornerOffsetLeft) + var(--reviewCardCornerWidth) / 2
     );
   }
 
