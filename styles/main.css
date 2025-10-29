@@ -1058,10 +1058,12 @@ h4,
   background-color: currentColor;
   transition-duration: inherit;
 }
-.header__button {
-  height: 48px;
-  padding-inline: 18px;
-  font-size: 16px;
+@media (max-width: 1023px) {
+  .header__button {
+    height: 48px;
+    padding-inline: 18px;
+    font-size: 16px;
+  }
 }
 
 .hero {

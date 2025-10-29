@@ -82,8 +82,10 @@
   }
 
   &__button {
-    height: 48px;
-    padding-inline: 18px;
-    font-size: 16px;
+    @include tablet {
+      height: 48px;
+      padding-inline: 18px;
+      font-size: 16px;
+    }
   }
 }
