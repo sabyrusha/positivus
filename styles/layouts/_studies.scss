@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .studies {
   @include desktop-above {
     padding: 70px 60px;

@@ -1,3 +1,6 @@
+@use "../abstracts/mixins" as *;
+@use "../base/media" as *;
+
 .footer {
   @include mobile {
     padding-inline: 0;
