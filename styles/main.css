@@ -267,7 +267,7 @@ svg * {
 }
 
 body {
-  font-size: clamp(16px, 1.25vw, 18px);
+  font-size: clamp(16px, 18 / 1440 * 100vw, 18px);
   font-family: var(--font-family-base);
   font-weight: 400;
   line-height: 1.28;
@@ -297,20 +297,20 @@ h4 {
 
 h1,
 .h1 {
-  font-size: clamp(43px, 4.1666666667vw, 60px);
+  font-size: clamp(43px, 60 / 1440 * 100vw, 60px);
 }
 
 h2,
 .h2 {
-  font-size: clamp(36px, 2.7777777778vw, 40px);
+  font-size: clamp(36px, 40 / 1440 * 100vw, 40px);
 }
 
 h3,
 .h3 {
-  font-size: clamp(26px, 2.0833333333vw, 30px);
+  font-size: clamp(26px, 30 / 1440 * 100vw, 30px);
 }
 
 h4,
 .h4 {
-  font-size: clamp(18px, 1.3888888889vw, 20px);
+  font-size: clamp(18px, 20 / 1440 * 100vw, 20px);
 }/*# sourceMappingURL=main.css.map */
